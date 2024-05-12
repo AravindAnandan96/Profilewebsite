@@ -1,0 +1,123 @@
+head{
+    display: none;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.h1
+{
+    font-size: 20px;
+    width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+    color: #E2DFD0;
+    background-color:#32012F;
+    text-align: center;
+    font-family: Helvetica, Arial;
+    padding-top: 10px;
+}
+.hcard
+{
+   background-color: black;
+   width: 100%;
+   height: 450px;
+   position: relative;
+   display: flex;
+}
+
+.img
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text
+{
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 0px;
+
+}
+h2{
+    color: white;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+iframe{
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    filter: invert(100%);
+} 
+#hobbies
+{
+background-color: #32012F;
+color: white;
+padding-left: 40%;
+padding-top: 5%;
+width: 100%;
+height: 200px;
+border-top: 15%;
+float: left;
+}
+h4{
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+.education{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.mba
+{
+    width: 400px;
+    height: 100px;
+}
+.BE
+{
+    width: 100px;
+    height: 100px;
+}
+h5{
+    font-size: 25px;
+}
+footer{
+    background-color: #32012F;
+    color: white;
+    text-align: center;
+}
